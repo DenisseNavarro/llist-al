@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+
+body {
+    background-image: url(179b437f-e032-4edd-9fb6-c5309a04577f-2060x1236.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Prompt', 'sans-serif';
+    color: white;
+    background-repeat: no-repeat;
+            background-position: center;
+}
+
+.mainContainer {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+h1{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+color: rgb(16, 127, 8);}
+.profileContainer__message {
+
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+#profileContainer__date {
+    padding: 50px 0 5px 0;
+}
+
+.add-taskContainer {
+    background-color: white;
+    border-radius: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    margin:12px 0;
+
+}
+
+.add-taskContainer__input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+
+}
+
+.add-taskContainer__i {
+    font-size: 30px;
+    color: rgb(16, 127, 8);
+}
+
+
+.add-taskContainer__i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.add-taskContainer__input::placeholder {
+    font-size: 1.1rem;
+    color: rgb(3, 3, 3);
+    
+}
+
+.taskListContainer__title {
+    font-size: 85%;
+    margin-bottom: 20px;
+}
+
+.taskListContainer__item {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between;
+    margin:5px 0;
+}
+.icons {display: flex;
+gap: 15%;
+}
+.taskListContainer i{
+    font-size: 20px;
+    color: rgb(16, 127, 8);
+    border-color: rgb(16, 127, 8);
+    }
+
+    .taskListContainer i:hover{
+        font-size: 20px;
+        color: rgb(16, 127, 8);
+        cursor: pointer;
+        transform: scale(1.1);
+        }
+     .taskListContainer i.fa-trash{display: flex;
+    align-content: flex-end;}
+
+
+
+.taskListContainer__text {
+    font-size: 1rem;
+    color: rgb(10, 10, 10);
+    word-wrap: break-word; /* Permite que el texto se divida entre líneas */
+    max-width: 80%;
+}
+
+.line-trought{
+    text-decoration: line-through;
+    color: rgb(16, 127, 8);}
+    @media (max-width: 768px) {
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+    }
+    
+
+
+
+
